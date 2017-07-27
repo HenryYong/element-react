@@ -156,8 +156,8 @@ declare namespace ElementReact {
   interface ColProps extends ElementReactLibs.ComponentProps<{}> {
     span: number | string
     offset?: number | string
-    pull?: number | string
-    push?: number | string
+    pull?: number
+    push?: number
     // the next props are not on https://eleme.github.io/element-react/#/zh-CN/layout
     xs?: number | string | Object
     sm?: number | string | Object
